@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+body{
+    background-color: #ecf1f0;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.section-1{
+    height: 60px;
+    padding: 30px 0px;
+
+}
+    
+
+.section-2{
+height: 100px;
+
+}
+
+.section-3{
+    height: 600px;
+    gap: 50px;
+}
+
+.section-4{
+height: 100px;
+
+}
+
+.single-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiple-element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section-element{
+    display: flex;
+    padding: 0px 100px;
+}
+.title{
+    font-weight: 600px;
+    font-size: 40px;
+}
+
+.button{
+    background-color: #666666;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 10px 20px ;
+}
+
+.button:hover{
+    background-color: #00a651;
+}
+
+.button-header{
+width: 150px;
+height: 50px;
+font-size: 14px;
+
+}
+
+.card{
+background-color: white;
+height: 500px;
+width: 400px;
+display: flex;
+flex-direction: column;
+border-radius: 5px;
+
+}
+
+
+.image{
+width: 400px;
+height: 300px;
+border-radius: 5px;
+
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.link{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-first-blck-text{
+    font-weight: 400;
+    font-size:20px ;
+    padding: 4px 10px;
+
+}
+
+.card-second-blck-text{
+    font-weight:  600;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.card-third-blck-text{
+    font-weight: 600;
+    font-size: 22px;
+    padding: 12px 10px;
+
+}

@@ -1,0 +1,145 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    font-size: 13px;
+}
+
+.subtitle {
+    opacity: 50%;
+}
+
+.text-2-black {
+    opacity: 70%;
+}
+
+.text-2-white {
+    opacity: 70%;
+}
+
+
+.icon {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.grid-container {
+
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+
+    grid-auto-rows: 200px justify-content:center;
+    (space-between);
+    align-items: end; */
+
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.superior,
+.inferior {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grid-item1 {
+    min-width: 200px;
+    max-width: 900px;
+    height: auto;
+    background-color: hsl(263, 55%, 52%);
+    border: 1px solid hsl(263, 55%, 52%);
+    margin: 20px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.grid-item2 {
+    min-width: 200px;
+    height: auto;
+    border-image: round;
+    background-color: hsl(217, 19%, 35%);
+    border: 1px solid hsl(217, 19%, 35%);
+    margin: 20px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.grid-item3 {
+     min-width: 200px;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+}
+
+.grid-item4 {
+
+    min-width: 200px;
+    max-width: 900px;
+    height: 250px;
+    background-color: hsl(219, 29%, 14%);
+    border: 1px solid hsl(219, 29%, 14%);
+    margin: 20px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.attribution{
+    display: flex;
+    
+    align-self: center;
+
+
+}
+.grid-item5 {
+    width: 200px;
+    height: 550px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+}
+
+@media (min-width:375px) {
+   
+
+}
+
+
+@media (max-width:1440px) {}
+
+/*.grid-item:nth-of-type(2){
+    width:100px;
+    background-color: rgb
+    align-self:center;
+    justify-self:center;
+
+}*/
